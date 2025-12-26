@@ -10,40 +10,40 @@
     <project path="device/xiaomi/peridot"
              name="device_xiaomi_peridot"
              remote="zenin"
-             revision="yaap-qpr2" />
+             revision="sixteen" />
 
     <!-- Kernel Source -->
     <project path="kernel/xiaomi/sm8635"
              name="kernel_xiaomi_sm8635"
              remote="zenin"
-             revision="lineage-23.0" />
+             revision="sixteen" />
 
     <project path="kernel/xiaomi/sm8635-devicetrees"
              name="kernel_xiaomi_sm8635-devicetrees"
              remote="zenin"
-             revision="lineage-23.0" />
+             revision="sixteen" />
 
     <project path="kernel/xiaomi/sm8635-modules"
              name="kernel_xiaomi_sm8635-modules"
              remote="zenin"
-             revision="lineage-23.0" />
+             revision="sixteen" />
 
     <!-- Vendor Blobs -->
     <project path="vendor/xiaomi/peridot"
              name="vendor_xiaomi_peridot"
              remote="zenin"
-             revision="yaap-qpr2" />
+             revision="sixteen" />
 
     <!-- HALs and Policies -->
     <project path="hardware/xiaomi"
              name="hardware_xiaomi"
              remote="zenin"
-             revision="yaap-qpr2" />
+             revision="sixteen" />
 
     <!-- Apps -->
     <project path="packages/apps/FastCharge"
              name="packages_apps_FastCharge"
              remote="zenin"
-             revision="fastcharge" />
+             revision="sixteen" />
 
 </manifest>
