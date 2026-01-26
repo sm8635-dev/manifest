@@ -10,7 +10,7 @@
     <project path="device/xiaomi/peridot"
              name="device_xiaomi_peridot"
              remote="zenin"
-             revision="sixteen" />
+             revision="sixteen-rebase" />
 
     <!-- Kernel Source -->
     <project path="kernel/xiaomi/sm8635"
