@@ -46,9 +46,4 @@
              remote="zenin"
              revision="sixteen" />
 
-    <project path="packages/apps/XiaomiDolby"
-             name="packages_apps_XiaomiDolby"
-             remote="zenin"
-             revision="sixteen" />
-
 </manifest>
