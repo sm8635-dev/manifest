@@ -6,6 +6,10 @@
             fetch="https://github.com/sm8635-dev"
             clone-depth="1" />
 
+    <remote name="codeberg"
+            fetch="https://codeberg.org/zenin1504"
+            clone-depth="1" />
+
     <!-- Device Tree -->
     <project path="device/xiaomi/peridot"
              name="device_xiaomi_peridot"
@@ -31,7 +35,7 @@
     <!-- Vendor Blobs -->
     <project path="vendor/xiaomi/peridot"
              name="vendor_xiaomi_peridot"
-             remote="zenin"
+             remote="codeberg"
              revision="sixteen" />
 
     <!-- HALs and Policies -->
