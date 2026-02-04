@@ -40,10 +40,4 @@
              remote="zenin"
              revision="sixteen" />
 
-    <!-- Apps -->
-    <project path="packages/apps/FastCharge"
-             name="packages_apps_FastCharge"
-             remote="zenin"
-             revision="sixteen" />
-
 </manifest>
