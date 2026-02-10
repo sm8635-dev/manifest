@@ -14,34 +14,34 @@
     <project path="device/xiaomi/peridot"
              name="device_xiaomi_peridot"
              remote="zenin"
-             revision="sixteen" />
+             revision="bq2" />
 
     <!-- Kernel Source -->
     <project path="kernel/xiaomi/sm8635"
              name="kernel_xiaomi_sm8635"
              remote="zenin"
-             revision="sixteen" />
+             revision="bq2" />
 
     <project path="kernel/xiaomi/sm8635-devicetrees"
              name="kernel_xiaomi_sm8635-devicetrees"
              remote="zenin"
-             revision="sixteen" />
+             revision="bq2" />
 
     <project path="kernel/xiaomi/sm8635-modules"
              name="kernel_xiaomi_sm8635-modules"
              remote="zenin"
-             revision="sixteen" />
+             revision="bq2" />
 
     <!-- Vendor Blobs -->
     <project path="vendor/xiaomi/peridot"
              name="vendor_xiaomi_peridot"
              remote="codeberg"
-             revision="sixteen" />
+             revision="bq2" />
 
     <!-- HALs and Policies -->
     <project path="hardware/xiaomi"
              name="hardware_xiaomi"
              remote="zenin"
-             revision="sixteen" />
+             revision="bq2" />
 
 </manifest>
