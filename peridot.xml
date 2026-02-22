@@ -18,46 +18,46 @@
     <project path="device/xiaomi/peridot"
              name="device_xiaomi_peridot"
              remote="zenin"
-             revision="bq2" />
+             revision="bka" />
 
     <!-- Kernel Source -->
     <project path="kernel/xiaomi/sm8635"
              name="kernel_xiaomi_sm8635"
              remote="zenin"
-             revision="bq2" />
+             revision="bka" />
 
     <project path="kernel/xiaomi/sm8635-devicetrees"
              name="kernel_xiaomi_sm8635-devicetrees"
              remote="zenin"
-             revision="bq2" />
+             revision="bka" />
 
     <project path="kernel/xiaomi/sm8635-modules"
              name="kernel_xiaomi_sm8635-modules"
              remote="zenin"
-             revision="bq2" />
+             revision="bka" />
 
     <!-- Miui Camera -->
     <project path="device/xiaomi/peridot-miuicamera"
              name="device_xiaomi_peridot-miuicamera"
              remote="zenin"
-             revision="bq2" />
+             revision="bka" />
 
     <project path="vendor/xiaomi/peridot-miuicamera"
              name="vendor_xiaomi_peridot-miuicamera"
              remote="zenin"
-             revision="bq2" />
+             revision="bka" />
 
     <!-- Vendor Blobs -->
     <project path="vendor/xiaomi/peridot"
              name="vendor_xiaomi_peridot"
              remote="codeberg"
-             revision="bq2" />
+             revision="bka" />
 
     <!-- HALs and Policies -->
     <project path="hardware/xiaomi"
              name="hardware_xiaomi"
              remote="zenin"
-             revision="bq2" />
+             revision="bka" />
 
     <!-- KProfiles -->
     <project path="packages/apps/Kprofiles"
