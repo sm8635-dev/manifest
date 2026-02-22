@@ -6,6 +6,10 @@
             fetch="https://github.com/sm8635-dev"
             clone-depth="1" />
 
+    <remote name="yaap"
+            fetch="https://github.com/YAAP"
+            clone-depth="1" />
+
     <remote name="codeberg"
             fetch="https://codeberg.org/zenin1504"
             clone-depth="1" />
@@ -43,5 +47,11 @@
              name="hardware_xiaomi"
              remote="zenin"
              revision="bq2" />
+
+    <!-- KProfiles -->
+    <project path="packages/apps/Kprofiles"
+             name="packages_apps_KProfiles"
+             remote="yaap"
+             revision="sixteen" />
 
 </manifest>
