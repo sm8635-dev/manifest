@@ -14,37 +14,41 @@
             fetch="https://codeberg.org/zenin1504"
             clone-depth="1" />
 
+    <remote name="evox"
+            fetch="https://github.com/evolution-x-devices"
+            clone-depth="1" />
+
     <!-- Device Tree -->
     <project path="device/xiaomi/peridot"
              name="device_xiaomi_peridot"
-             remote="zenin"
+             remote="evox"
              revision="bka" />
 
     <!-- Kernel Source -->
     <project path="kernel/xiaomi/sm8635"
              name="kernel_xiaomi_sm8635"
-             remote="zenin"
+             remote="evox"
              revision="bka" />
 
     <project path="kernel/xiaomi/sm8635-devicetrees"
              name="kernel_xiaomi_sm8635-devicetrees"
-             remote="zenin"
+             remote="evox"
              revision="bka" />
 
     <project path="kernel/xiaomi/sm8635-modules"
              name="kernel_xiaomi_sm8635-modules"
-             remote="zenin"
+             remote="evox"
              revision="bka" />
 
     <!-- Miui Camera -->
     <project path="device/xiaomi/peridot-miuicamera"
              name="device_xiaomi_peridot-miuicamera"
-             remote="zenin"
+             remote="evox"
              revision="bka" />
 
     <project path="vendor/xiaomi/peridot-miuicamera"
              name="vendor_xiaomi_peridot-miuicamera"
-             remote="zenin"
+             remote="evox"
              revision="bka" />
 
     <!-- Vendor Blobs -->
