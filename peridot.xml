@@ -10,44 +10,48 @@
             fetch="https://codeberg.org/zenin1504"
             clone-depth="1" />
 
+    <remote name="yaap"
+            fetch="https://github.com/YAAP"
+            clone-depth="1" />
+
     <!-- Device Tree -->
     <project path="device/xiaomi/peridot"
              name="device_xiaomi_peridot"
              remote="zenin"
-             revision="sixteen" />
+             revision="aicp" />
 
     <!-- Kernel Source -->
     <project path="kernel/xiaomi/sm8635"
              name="kernel_xiaomi_sm8635"
              remote="zenin"
-             revision="sixteen" />
+             revision="aicp" />
 
     <project path="kernel/xiaomi/sm8635-devicetrees"
              name="kernel_xiaomi_sm8635-devicetrees"
              remote="zenin"
-             revision="sixteen" />
+             revision="aicp" />
 
     <project path="kernel/xiaomi/sm8635-modules"
              name="kernel_xiaomi_sm8635-modules"
              remote="zenin"
-             revision="sixteen" />
+             revision="aicp" />
 
     <!-- Vendor Blobs -->
     <project path="vendor/xiaomi/peridot"
              name="vendor_xiaomi_peridot"
              remote="codeberg"
-             revision="sixteen" />
+             revision="aicp" />
 
     <!-- HALs and Policies -->
     <project path="hardware/xiaomi"
              name="hardware_xiaomi"
              remote="zenin"
-             revision="sixteen" />
+             revision="aicp" />
 
-    <!-- Apps -->
-    <project path="packages/apps/FastCharge"
-             name="packages_apps_FastCharge"
-             remote="zenin"
+    <!-- KProfiles -->
+    <project path="packages/apps/Kprofiles"
+             name="packages_apps_KProfiles"
+             remote="yaap"
              revision="sixteen" />
 
 </manifest>
