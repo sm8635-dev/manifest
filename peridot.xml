@@ -36,6 +36,12 @@
              remote="zenin"
              revision="aicp" />
 
+    <!-- MicroG -->
+    <project path="vendor/microg"
+             name="vendor_microg"
+             remote="yaap"
+             revision="sixteen" />
+
     <!-- Vendor Blobs -->
     <project path="vendor/xiaomi/peridot"
              name="vendor_xiaomi_peridot"
