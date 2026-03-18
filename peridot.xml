@@ -20,6 +20,12 @@
              remote="zenin"
              revision="pos-unofficial" />
 
+    <!-- Dolby -->
+    <project path="hardware/dolby"
+             name="hardware_dolby"
+             remote="zenin"
+             revision="sixteen" />
+
     <!-- Kernel Source -->
     <project path="kernel/xiaomi/sm8635"
              name="kernel_xiaomi_sm8635"
