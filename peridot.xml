@@ -17,8 +17,8 @@
              revision="sixteen" />
 
     <!-- Dolby -->
-    <project path="hardware/dolby"
-             name="hardware_dolby"
+    <project path="vendor/sony/dolby"
+             name="vendor_sony_dolby"
              remote="zenin"
              revision="sixteen" />
 
