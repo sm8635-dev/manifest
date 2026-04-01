@@ -42,17 +42,6 @@
              remote="zenin"
              revision="lineage-23.2" />
 
-    <!-- Miui Camera -->
-    <project path="device/xiaomi/peridot-miuicamera"
-             name="device_xiaomi_peridot-miuicamera"
-             remote="zenin"
-             revision="lineage-23.2" />
-
-    <project path="vendor/xiaomi/peridot-miuicamera"
-             name="vendor_xiaomi_peridot-miuicamera"
-             remote="zenin"
-             revision="lineage-23.2" />
-
     <!-- Vendor Blobs -->
     <project path="vendor/xiaomi/peridot"
              name="vendor_xiaomi_peridot"
