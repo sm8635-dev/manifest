@@ -40,17 +40,6 @@
              remote="evox"
              revision="bka" />
 
-    <!-- Miui Camera -->
-    <project path="device/xiaomi/peridot-miuicamera"
-             name="device_xiaomi_peridot-miuicamera"
-             remote="evox"
-             revision="bka" />
-
-    <project path="vendor/xiaomi/peridot-miuicamera"
-             name="vendor_xiaomi_peridot-miuicamera"
-             remote="evox"
-             revision="bka" />
-
     <!-- Vendor Blobs -->
     <project path="vendor/xiaomi/peridot"
              name="vendor_xiaomi_peridot"
