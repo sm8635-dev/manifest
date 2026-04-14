@@ -30,7 +30,7 @@
     <project path="kernel/xiaomi/sm8635"
              name="kernel_xiaomi_sm8635"
              remote="zenin"
-             revision="rebase" />
+             revision="pos-unofficial" />
 
     <project path="kernel/xiaomi/sm8635-devicetrees"
              name="kernel_xiaomi_sm8635-devicetrees"
