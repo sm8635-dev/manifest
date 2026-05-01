@@ -16,12 +16,6 @@
              remote="zenin"
              revision="sixteen" />
 
-    <!-- Dolby -->
-    <project path="vendor/sony/dolby"
-             name="vendor_sony_dolby"
-             remote="zenin"
-             revision="sixteen" />
-
     <!-- Kernel Source -->
     <project path="kernel/xiaomi/sm8635"
              name="kernel_xiaomi_sm8635"
@@ -53,6 +47,11 @@
     <!-- Apps -->
     <project path="packages/apps/FastCharge"
              name="packages_apps_FastCharge"
+             remote="zenin"
+             revision="sixteen" />
+
+    <project path="packages/apps/XiaomiParts"
+             name="packages_apps_XiaomiParts"
              remote="zenin"
              revision="sixteen" />
 
