@@ -45,7 +45,7 @@
     <!-- HALs and Policies -->
     <project path="hardware/xiaomi"
              name="hardware_xiaomi"
-             remote="zenin"
-             revision="bka" />
+             remote="evox"
+             revision="bka-no-dolby" />
 
 </manifest>
