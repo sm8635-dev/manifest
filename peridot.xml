@@ -16,12 +16,6 @@
              remote="zenin"
              revision="pos-unofficial" />
 
-    <!-- Dolby -->
-    <project path="vendor/sony/dolby"
-             name="vendor_sony_dolby"
-             remote="zenin"
-             revision="sixteen" />
-
     <!-- Kernel Source -->
     <project path="kernel/xiaomi/sm8635"
              name="kernel_xiaomi_sm8635"
