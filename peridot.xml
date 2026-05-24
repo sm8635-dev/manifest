@@ -6,23 +6,13 @@
             fetch="https://github.com/sm8635-dev"
             clone-depth="1" />
 
-    <remote name="yaap"
-            fetch="https://github.com/YAAP"
-            clone-depth="1" />
-
-    <remote name="codeberg"
-            fetch="https://codeberg.org/zenin1504"
+    <remote name="gitlab-zenin"
+            fetch="https://gitlab.com/sm8635-dev"
             clone-depth="1" />
 
     <!-- Device Tree -->
     <project path="device/xiaomi/peridot"
              name="device_xiaomi_peridot"
-             remote="zenin"
-             revision="lineage-23.2" />
-
-    <!-- Dolby -->
-    <project path="vendor/sony/dolby"
-             name="vendor_sony_dolby"
              remote="zenin"
              revision="lineage-23.2" />
 
@@ -45,7 +35,7 @@
     <!-- Vendor Blobs -->
     <project path="vendor/xiaomi/peridot"
              name="vendor_xiaomi_peridot"
-             remote="codeberg"
+             remote="gitlab-zenin"
              revision="lineage-23.2" />
 
     <!-- HALs and Policies -->
@@ -53,11 +43,5 @@
              name="hardware_xiaomi"
              remote="zenin"
              revision="lineage-23.2" />
-
-    <!-- KProfiles -->
-    <project path="packages/apps/Kprofiles"
-             name="packages_apps_KProfiles"
-             remote="yaap"
-             revision="sixteen" />
 
 </manifest>
