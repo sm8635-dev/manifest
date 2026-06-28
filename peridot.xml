@@ -6,9 +6,11 @@
             fetch="https://github.com/sm8635-dev"
             clone-depth="1" />
 
+    <!--
     <remote name="gitlab-zenin"
             fetch="https://gitlab.com/sm8635-dev"
             clone-depth="1" />
+    -->
 
     <remote name="lineage-audio"
             fetch="https://github.com/LineageOS" />
@@ -63,10 +65,12 @@
              revision="sixteen" />
 
     <!-- Vendor Blobs -->
+    <!--
     <project path="vendor/xiaomi/peridot"
              name="vendor_xiaomi_peridot"
              remote="gitlab-zenin"
              revision="sixteen" />
+    -->
 
     <!-- HALs and Policies -->
     <project path="hardware/xiaomi"
