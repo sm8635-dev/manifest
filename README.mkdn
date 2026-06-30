@@ -8,11 +8,11 @@ This repository contains local manifest overrides for the Android source tree. T
 
 To initialize your local repository using these local manifests, use:
 ```
-git clone https://github.com/sm8635-dev/manifest.git -b lineage-23.2 .repo/local_manifests
+git clone https://github.com/sm8635-dev/manifest.git -b lineage-24.0 .repo/local_manifests
 ```
 Then sync all repositories:
 ```
-repo sync -j$(nproc --all) --no-tags --no-clone-bundle --current-branch --force-sync
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch
 ```
 Optional cleanup:
 ```
